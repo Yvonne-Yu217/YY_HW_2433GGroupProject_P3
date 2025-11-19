@@ -56,3 +56,13 @@ pip-wheel-metadata/
 # Pytest cache
 .pytest_cache/
 data/*.xlsx
+
+# Ignore PDF files across the repository
+*.pdf
+
+# Ignore local extracted data directory and debug CSVs
+2433_p3_data/
+aggregated_all_years_debug.csv
+
+# Local history cache (editor/IDE)
+.history/
