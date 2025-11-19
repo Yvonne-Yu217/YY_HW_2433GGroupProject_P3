@@ -56,3 +56,6 @@ pip-wheel-metadata/
 # Pytest cache
 .pytest_cache/
 data/*.xlsx
+
+# Ignore PDF files across the repository
+*.pdf
